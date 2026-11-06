@@ -18,20 +18,11 @@ h1 {
     color: blue;
 }
 
-.link:nth-child(1) {
-    color: green;
-}
-
-#first-post {
-    color: orange;
-}
-
 #first-post p {
     color: orange;
 }
 
-.post:nth-of-type(2) h2,
-.post:nth-of-type(2) p {
+.post:nth-of-type(2) {
     color: purple;
 }
 
@@ -83,13 +74,6 @@ label + input {
 
 .note {
     color: maroon;
-}
-.nav-list li:nth-child(1) a {
-    color: green;
-}
-
-.nav-list li:nth-child(2) a {
-    color: blue;
 }
 
 .nav-list li:nth-child(3) a {
