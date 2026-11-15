@@ -1,8 +1,5 @@
 * {
-    box-sizing: border-box;
-}
-
-body {
+    font-family: Arial;
     color: black;
 }
 
@@ -18,11 +15,19 @@ h1 {
     color: blue;
 }
 
-#first-post p {
+.nav-list li:nth-child(3) a {
+    color: yellow;
+}
+
+#first-post {
     color: orange;
 }
 
-.post:nth-of-type(2) {
+#first-post h2 + p {
+    color: orange;
+}
+
+.post:nth-of-type(2) h2 + p {
     color: purple;
 }
 
@@ -46,13 +51,12 @@ h1 {
     color: black;
 }
 
-[href="#"] {
-    text-decoration: none;
+[placeholder="Белый"] {
+    background-color: gray;
 }
 
-[placeholder="Белый"] {
+[placeholder="Белый"]::placeholder {
     color: white;
-    background-color: #555;
 }
 
 .link:hover {
@@ -64,18 +68,6 @@ h1 {
     color: blue;
 }
 
-.submit-btn {
-    color: black;
-}
-
-label + input {
-    border: 2px solid gray;
-}
-
-.note {
-    color: maroon;
-}
-
-.nav-list li:nth-child(3) a {
-    color: yellow;
+.color-list li::before {
+    content: "• ";
 }
