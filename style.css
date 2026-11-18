@@ -19,14 +19,12 @@ h1 {
     color: yellow;
 }
 
-#first-post {
-    color: orange;
-}
-
+#first-post h2,
 #first-post h2 + p {
     color: orange;
 }
 
+.post:nth-of-type(2) h2,
 .post:nth-of-type(2) h2 + p {
     color: purple;
 }
