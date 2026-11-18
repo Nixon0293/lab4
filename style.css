@@ -65,11 +65,3 @@ h1 {
     content: " ★";
     color: blue;
 }
-
-.color-list {
-    list-style: none;
-}
-
-.color-list li::before {
-    content: "• ";
-}
